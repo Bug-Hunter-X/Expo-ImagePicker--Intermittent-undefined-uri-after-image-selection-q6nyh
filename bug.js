@@ -1,0 +1,1 @@
+This bug occurs when using the Expo ImagePicker library.  Sometimes, after selecting an image, the `uri` property of the selected image is undefined, preventing the app from processing the image. This is intermittent and doesn't happen every time.
